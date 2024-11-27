@@ -11,7 +11,7 @@ Additionally, the dataset is processed to calculate **weeks** based on the numbe
 `streamlit run streamlitApp.py` should run the Streamlit dashboard. In this project, it is connected to Streamlit Cloud through Github.
 
 ### Setting up Cron Scheduling
-```python
+```yaml
 name: Daily Dataset Update
 
 on:
