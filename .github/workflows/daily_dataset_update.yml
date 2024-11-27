@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add data/bpl_dataset.csv
+          git add data/bpl_dataset.csv data/bpl_heatmap.html data/daily_avg_user_activity.html
           git commit -m "Automated dataset update: $(date)"
           git push
         env:
